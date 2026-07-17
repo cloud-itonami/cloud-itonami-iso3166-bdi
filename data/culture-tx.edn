@@ -1,0 +1,13 @@
+;; data/culture-tx.edn — DataScript tx-data derived from src/culture/facts.cljc
+;; `culture.facts/catalog` (ADR-2607171400 addendum 2, Wave 1 country-level).
+;; Same shape across every cloud-itonami-iso3166-* sibling. Do not hand-edit;
+;; regenerate from the catalog.
+
+[
+#:culture{:url "https://en.wikipedia.org/wiki/Ugali", :id "bdi.dish.ugali", :kind :dish, :name-local "Bugali", :country "BDI", :retrieved-at "2026-07-17", :summary "Stiff maize- or cassava-flour porridge that is a staple across East and Central Africa, known in Burundi as bugali.", :name "Ugali", :url-provenance :wikipedia-en}
+#:culture{:id "bdi.dish.ndagala", :name "Ndagala", :country "BDI", :kind :dish, :summary "Small pelagic Clupeidae fish found only in Lake Tanganyika, called ndagala in Burundi, caught all year round and an important part of the local diet.", :url "https://en.wikipedia.org/wiki/Ndagala", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "bdi.dish.ibiharage", :name "Ibiharage", :country "BDI", :kind :dish, :summary "Fried beans, a typical dish of Burundian cuisine, in which beans are the staple of Burundi cooking.", :url "https://en.wikipedia.org/wiki/Burundian_cuisine", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:url "https://en.wikipedia.org/wiki/Banana_beer", :id "bdi.beverage.urwagwa", :kind :beverage, :name-local "Urwagwa", :country "BDI", :retrieved-at "2026-07-17", :summary "Alcoholic beverage fermented from mashed bananas with a sorghum, millet or maize flour yeast source, known in Rwanda and Burundi as urwagwa.", :name "Banana beer", :url-provenance :wikipedia-en}
+#:culture{:id "bdi.craft.karyenda", :name "Karyenda", :country "BDI", :kind :craft, :summary "Traditional African drum that served as the main symbol of Burundi and its monarchy, holding semi-divine status.", :url "https://en.wikipedia.org/wiki/Karyenda", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "bdi.heritage.gishora", :name "Gishora", :country "BDI", :kind :heritage, :summary "Early 19th-century royal palace site north of Gitega sheltering the sanctuary of the sacred drums, added to UNESCO's World Heritage Tentative List in 2007.", :url "https://en.wikipedia.org/wiki/Gishora", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+]
