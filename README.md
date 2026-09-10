@@ -36,7 +36,7 @@ as `cloud-itonami-iso3166-jpn`/`-deu`/`-ben`/`-atg`/`-and`:
   Marchés Publics Art. 37 al. 8 / Art. 40's twenty-percent-of-base-
   contract ceiling for complementary/continuation gré-à-gré (direct/
   single-source) contracting.
-- `src/statute/facts.cljc` -- general-law catalog: the domestic Code des
+- `src/statute/facts.kotoba` -- general-law catalog: the domestic Code des
   Sociétés Privées et à Participation Publique (Loi n°1/09/2011), the
   Code du Travail (as revised by Loi n°1/11 du 24 novembre 2020), and
   the brand-new Loi n°1/03 du 10 mars 2026 portant Protection des
@@ -58,7 +58,7 @@ Alongside the market-entry / statute catalogs, this repo carries a
 `com-junkawasaki/root`) — national dishes, protected products, beverages,
 crafts, festivals and heritage sites for Burundi:
 
-- `src/culture/facts.cljc` — the catalog, source of truth (keyed by
+- `src/culture/facts.kotoba` — the catalog, source of truth (keyed by
   uppercase ISO3, mirroring `statute.facts`).
 - `schema/culture.edn` — DataScript schema.
 - `data/culture-tx.edn` — derived DataScript tx-data (regenerated from
